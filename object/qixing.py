@@ -1,3 +1,4 @@
+import yaml
 class Bicycle():
     def run(self,km):
         print(f"骑行了{km}千米")
@@ -18,6 +19,9 @@ class EBicycle(Bicycle):
             else:
                 print("电够用")
                 print(f"骑行了{km}千米")
-
-runing = EBicycle(20)
-runing.run(110)
+with open('../xinjiancyyaml/data.yaml',encoding='utf-8') as f:
+    test = yaml.safe_load(f)
+rr = test['defualt']
+print(rr['env'])
+runing = EBicycle(rr['battery'])
+runing.run(rr['km'])
