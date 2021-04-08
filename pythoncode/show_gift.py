@@ -1,5 +1,5 @@
 import demo_gift
-def show_gift():
+def shw_gift():
     have_gift=demo_gift.have_gift
     if have_gift == True:
         print("收到礼物啦")
