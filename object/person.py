@@ -1,3 +1,12 @@
+"""
+面向对象：
+创建一个person类
+属性：姓名，性别，年龄，存款金额
+方法：吃，睡，跑，赚钱
+父类person
+子类funny继承父类person
+"""
+
 class person:
     ##静态属性
     name = None
