@@ -10,5 +10,6 @@ data3: &e3
   env: hehe
   battery: 10
   km: 999
+
 defualt:
-  <<: *e3
+  <<: *e2
