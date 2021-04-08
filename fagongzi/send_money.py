@@ -1,4 +1,4 @@
 import money
-def send_money():
-    money.saved_money += 1000
+def sed_money():
+    money.saved_money += 1500
     print("发工资啦")

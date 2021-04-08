@@ -1,6 +1,6 @@
 from fagongzi.select_money import select_money
-from fagongzi.send_money import send_money
+from fagongzi.send_money import sed_money
 
 if __name__ == '__main__':
-    send_money()
+    sed_money()
     select_money()
